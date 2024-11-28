@@ -106,7 +106,7 @@
   .footersign{
     color: rgb(37, 37, 37);
     position: relative;
-    left: 2vw;
+    left: 85.1vw;
     bottom: -13vw;
     font-size: 1vw;
   }
@@ -135,12 +135,18 @@
     left: 11.4vw;
     top: 5.2vw;
   }
+  .logos{
+    position: absolute;
+    left: 83vw;
+    top: 1vw;
+  }
   .discord{
     height: 13vw;
     width: 20vw;
     position: absolute;
-    left: 78vw;
+    left: 1.5vw;
     top: 1vw;
+
   }
    /* Main */
    .main{
