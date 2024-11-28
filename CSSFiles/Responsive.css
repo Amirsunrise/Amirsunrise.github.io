@@ -1,0 +1,154 @@
+ /* Responsive */
+ @media only screen and (min-width: 768px) {
+    .nav{
+        display: none;
+    }
+ }
+ @media only screen and (max-width: 768px) {
+    .buttons{
+      display: none;
+    }
+    .Sitename{
+      display: none;
+    }
+    .header{
+      height: 20vw;
+    }
+    .discord{
+      display: none;
+    }
+    .pagename{
+        font-size: 5vw;
+        position: absolute;
+        left: 44vw;
+        top: 6vw;
+    }
+    .sulogo{
+        height: 5vw;
+        width: 10vw;
+        position: absolute;
+        top: 7vw;
+        right: 4vw;
+    }
+    .footer{
+        height: 45vw;
+    }
+    .youtubelogo{
+        height: 13.5vw;
+        width: 13.5vw;
+        position: absolute;
+        left: 60vw;
+        top: 18vw;
+    }
+    .instagramlogo{
+        height: 15vw;
+        width: 15vw;
+        position: absolute;
+        left: 42vw;
+        top: 17vw;
+    }
+    .discordlogo{
+        height: 15vw;
+        width: 15vw;
+        position: absolute;
+        left: 25vw;
+        top: 17vw;
+    }
+    .footersign{
+        position: relative;
+        left: 30vw;
+        top: 35vw;
+        font-size: 3vw;
+    }
+    .main{
+        margin-top: 22vw;
+    }
+    .nav{
+        height: 10vw;
+        position: absolute;
+        top: 4vw;
+        left: 4vw;
+    }
+ }
+ /* Mobile Menu*/
+ body{
+    background-color: #070707;
+ }
+ .menutext{
+    color: aliceblue;
+    font-size: 3.5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .divmedia{
+    background-color: rgb(19, 19, 19);
+    height: 12vw;
+    width: 60vw;
+    position: absolute;
+    left: 21vw;
+    top: 30vw;
+    border-radius: 10%;
+ }
+ .iconmedia{
+    width: 7vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 2vw;
+ }
+ .textmedia{
+    position: absolute;
+    top: 1vw;
+    left: 25vw;
+ }
+ .divevent{
+    background-color: rgb(19, 19, 19);
+    height: 12vw;
+    width: 60vw;
+    position: absolute;
+    left: 21vw;
+    top: 50vw;
+    border-radius: 10%;
+ }
+ .iconevent{
+    width: 7vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 2vw;
+ }
+ .textevent{
+    position: absolute;
+    top: 1vw;
+    left: 25vw;
+ }
+ .divshop{
+    background-color: rgb(19, 19, 19);
+    height: 12vw;
+    width: 60vw;
+    position: absolute;
+    left: 21vw;
+    top: 70vw;
+    border-radius: 10%;
+ }
+ .iconshop{
+    width: 7vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 2vw;
+ }
+ .textshop{
+    position: absolute;
+    top: 1vw;
+    left: 25vw;
+ }
+ .skip{
+    height: 10vw;
+    position: absolute;
+    top: 4vw;
+    left: 4vw;
+ }
+ .discordmenu{
+   height: 50vw;
+   width: 60vw;
+   position: absolute;
+   left: 21vw;
+   top: 90vw;
+ }
