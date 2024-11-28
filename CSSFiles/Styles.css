@@ -31,6 +31,7 @@
     height: 4vw;
     position: absolute;
     top: 0vw;
+    z-index: 1;
   }
   .sulogo{
     position: absolute;

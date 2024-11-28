@@ -1,0 +1,19 @@
+.content{
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 3vw;
+}
+.emoji{
+    height: 4vw;
+    width: 3vw;
+    position: relative;
+    top: 1vw;
+}
+.sticker{
+    height: 15vw;
+    border-radius: 20px;
+}
+.hyperlink{
+    text-decoration: none;
+}
+/* qeyre */
