@@ -12,6 +12,7 @@
 .sticker{
     height: 15vw;
     border-radius: 20px;
+    float: initial;
 }
 .hyperlink{
     text-decoration: none;
