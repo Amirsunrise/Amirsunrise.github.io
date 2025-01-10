@@ -1,0 +1,164 @@
+/* hamechi */
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: black;
+}
+p,h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: "Lalezar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hyperlink{
+    text-decoration: none;
+    color: rgb(175, 200, 247);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #000000
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1f1f1f
+}
+/* header */
+.title{
+    position: absolute;
+    left: 44vw;
+    top: 0vw;
+    font-size: 2vw;
+}
+.inftitle{
+    position: relative;
+    right: 7vw;
+    color: aliceblue;
+    opacity: 30%;
+    top: 3vw;
+}
+.sitename{
+    opacity: 80%;
+    position: relative;
+    top: 3vw;
+    right: 2.5vw;
+}
+.gif{
+    height: 20vw;
+    width: 50vw;
+    position: relative;
+    right: 19vw;
+    bottom: 15vw;
+    z-index: -1;
+    opacity: 40%;
+}
+/* sidebar */
+.sidebar{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(102, 21, 207);
+    height: 30vw;
+    width: 7vw;
+    border-radius: 10px;
+    right: 2vw;
+    top: 16vw;
+}
+.gigalogo{
+    height: 5vw;
+    position: relative;
+    left: 0.8vw;
+    top: 1vw;
+}
+.lenzlogo{
+    height: 4vw;
+    position: relative;
+    left: 1.4vw;
+    top: 4vw;
+}
+.platform{
+    content:url(../Pics/PC.png);
+    height: 2vw;
+    position: relative;
+    left: -2vw;
+    top: 14vw;
+}
+.discord{
+    height: 4vw;
+    position: relative;
+    left: 1.4vw;
+    top: 5vw;
+}
+/* main */
+.main{
+    margin-top: 12vw;
+    min-height: 100%;
+    padding: 4vw;
+}
+.content{
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    padding: 2vw;
+    width: 80vw;
+    font-size: 2vw;
+}
+.contentlogo{
+    height: 5vw;
+}
+.contenttitle{
+    display: inline;
+    position: relative;
+    bottom: 2vw;
+    left: 1vw;
+    font-size: 2.5vw;
+    color: rgba(240, 248, 255, 0.63);
+}
+.picture{
+    width: 80vw;    
+}
+/* connection */
+.players{
+    color: yellow;
+}
+.iplogo{
+    position: relative;
+    top: 2vw;
+    height: 3vw;
+}
+.ip{
+    position: relative;
+    top: 1vw;
+    display: inline;
+    font-size: 2vw;
+    color: rgb(67, 94, 134);
+}
+/* minecraft */
+.minecraftlogo{
+    height: 4vw;
+}
+.minecrafttitle{
+    position: relative;
+    bottom: 1vw;
+    left: 2vw;
+}
+/* footer */
+.footer{
+    width: 100%;
+    margin-top: 0;
+    clear: both;
+    height: 10vw;
+}
+.footertext{
+    color: rgb(24, 24, 24);
+    font-size: 1vw;
+    position: relative;
+    top: 10vw;
+    left: 4vw;
+    display: inline;
+}
+.footerlink{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}

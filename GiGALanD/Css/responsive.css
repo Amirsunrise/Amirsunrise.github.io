@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px) {
+    .content{
+        font-size: 2.684782467vw;
+        width: 96%;
+    }
+    .sidebar{
+        width: 90vw;
+        height: 15vw;
+        right: 4.5vw;
+        margin: auto;
+        position: fixed;
+        bottom: -110vw;
+    }
+    .gigalogo{
+        height: 10vw;
+        position: relative;
+        left: 40vw;
+        top: 3vw;
+    }
+    .lenzlogo{
+        height: 8vw;
+        position: relative;
+        left: 13vw;
+        top: 2vw;
+    }
+    .platform{
+        content:url(../Pics/mobile.png);
+        height: 5vw;
+        position: relative;
+        left: -25vw;
+        top: 0.5vw;
+    }
+    .discord{
+        height: 8vw;
+        position: relative;
+        left: 40vw;
+        top: 2vw;
+    }
+    .sitename{
+        position: relative;
+        top: 10vw;
+    }
+    .inftitle{
+        right: 7vw;
+        top: 10vw;
+    }
+    .footertext{
+        display: none;
+    }
+    .footer{
+        height: 30vw;
+    }
+    .gif{
+        height: 30vw;
+        width: 50vw;
+        position: relative;
+        right: 20vw;
+    }
+    .main{
+        margin-top: 20vw;
+    }
+}
