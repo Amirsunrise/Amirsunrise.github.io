@@ -12,19 +12,12 @@ p,h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     font-style: normal;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .hyperlink{
     text-decoration: none;
     color: rgb(175, 200, 247);
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-track {
-  background-color: #000000
-}
-::-webkit-scrollbar-thumb {
-  background-color: #1f1f1f
 }
 /* header */
 .title{
@@ -117,6 +110,7 @@ p,h1,h2,h3,h4,h5,h6{
 }
 .picture{
     width: 100%;
+    border-radius: 10px;
 }
 /* connection */
 .players{

@@ -3,7 +3,7 @@
     .sidebar{
         width: 90vw;
         height: 15vw;
-        right: 3.8vw;
+        right: 4.9vw;
         margin: auto;
         position: fixed;
         bottom: -140vw;
@@ -33,38 +33,24 @@
         left: 40vw;
         top: 2vw;
     }
+    /* header */
+    .title{
+        top: 12vw;
+    }
     /* main */
     .main{
         margin-top: 33vw;
     }
     .content{
         font-size: 4vw;
-        width: 96%;
+        width: 95%;
         padding: 2.5vw;
-    }
-    .sitename{
-        position: relative;
-        top: 10vw;
-        right: 7vw;
-        font-size: 7vw;
-    }
-    .inftitle{
-        position: relative;
-        right: 19.8vw;
-        top: 10vw;
-        font-size: 4vw;
     }
     .contenttitle{
         font-size: 5vw;
     }
     .contentlogo{
         height: 6vw;
-    }
-    .gif{
-        height: 30vw;
-        width: 55vw;
-        position: relative;
-        right: 21vw;
     }
     /* footer */
     .footertext{
