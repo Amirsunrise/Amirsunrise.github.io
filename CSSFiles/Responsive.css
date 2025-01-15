@@ -1,20 +1,9 @@
  /* Responsive */
- @media only screen and (min-width: 768px) {
-    .nav{
-        display: none;
-    }
-    .sticker{
-      position: relative;
-      left: 75vw;
-      bottom: 5vw;
-    }
-    .textbox{
-      width: 60%;
-      height: 10vw;
-    }
- }
- @media only screen and (max-width: 768px) {
-    .buttons{
+ @media only screen and (max-width: 600px) {
+   .nav{
+      display: block;
+   } 
+   .buttons{
       display: none;
     }
     .Sitename{

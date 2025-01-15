@@ -33,6 +33,9 @@
     top: 0vw;
     z-index: 1;
   }
+  .nav{
+    display: none;
+  }
   .sulogo{
     position: absolute;
     right: 1.2vw;
