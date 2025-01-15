@@ -3,10 +3,6 @@
     border-radius: 10px;
     padding: 3vw;
 }
-.textbox{
-    width: 60%;
-    height: 10vw;
-  }
 .emoji{
     height: 4vw;
     width: 3vw;
@@ -15,11 +11,8 @@
 }
 .sticker{
     height: 15vw;
-    border-radius: 20px;
-    float: initial;
     position: relative;
-    left: 75vw;
-    bottom: 5vw;
+    left: 80%;
 }
 .hyperlink{
     text-decoration: none;

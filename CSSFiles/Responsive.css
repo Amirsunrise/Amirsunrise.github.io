@@ -1,5 +1,5 @@
  /* Responsive */
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 678px) {
    .nav{
       display: block;
    } 
@@ -75,10 +75,6 @@
     /* content */
     .content{
       font-size: 4vw;
-    }
-    .sticker{
-      position: relative;
-      left: 70vw;
     }
  }
  /* Mobile Menu*/
